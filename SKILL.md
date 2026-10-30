@@ -1,11 +1,11 @@
 ---
-name: signal-design-system
-description: Use when designing or building any page, section or component for this website. Builds only from the Signal design system.
+name: clay-design-system
+description: Use when designing or building any page, section or component for this website. Builds only from the Clay design system.
 ---
 
-# Signal design system
+# Clay design system
 
-The look: bold, technical, precise, high contrast.
+The look: warm, friendly, generous, handmade.
 Source of truth: `assets/tokens.css` (values) and `assets/components.css` (components). The storybook (`storybook.html`) shows every token and component.
 
 ## Hard rules

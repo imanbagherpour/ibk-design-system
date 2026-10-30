@@ -1,56 +1,55 @@
-/* Signal · design tokens. The only place values live. */
-@font-face{font-family:"Space Grotesk";src:url("fonts/space-grotesk-latin-wght-normal.woff2") format("woff2");font-weight:300 700;font-style:normal;font-display:swap;}
-@font-face{font-family:"Inter";src:url("fonts/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
-@font-face{font-family:"JetBrains Mono";src:url("fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2");font-weight:100 800;font-style:normal;font-display:swap;}
+/* Clay · design tokens. The only place values live. */
+@font-face{font-family:"DM Serif Display";src:url("fonts/dm-serif-display-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Figtree";src:url("fonts/figtree-latin-wght-normal.woff2") format("woff2");font-weight:300 900;font-style:normal;font-display:swap;}
 :root{
   /* Colour */
-  --color-bg: #0B0D10;
-  --color-surface: #12161B;
-  --color-card: #151A20;
-  --color-text: #E9EDF1;
-  --color-heading: #FFFFFF;
-  --color-muted: #9AA4AF;
-  --color-border: rgba(233,237,241,.12);
-  --color-border-strong: rgba(233,237,241,.35);
-  --color-accent: #C8F135;
-  --color-accent-hover: #D7F96A;
-  --color-accent-text: #0B0D10;
-  --color-accent-strong: #C8F135;
-  --color-accent-soft: rgba(200,241,53,.12);
-  --color-inverse-bg: #C8F135;
-  --color-inverse-text: #0B0D10;
-  --color-inverse-muted: #2B3410;
-  --color-inverse-border: rgba(11,13,16,.4);
-  --color-inverse-action: #0B0D10;
-  --color-inverse-action-hover: #1C222A;
-  --color-inverse-action-text: #C8F135;
-  --color-nav-bg: rgba(11,13,16,.8);
-  --color-footer-bg: #0B0D10;
-  --color-footer-text: #E9EDF1;
-  --color-footer-border: rgba(233,237,241,.12);
-  --color-input-bg: #12161B;
-  --color-focus: #C8F135;
-  --color-error: #FF6B6B;
+  --color-bg: #FBF6EF;
+  --color-surface: #F3E7D8;
+  --color-card: #FFFDF9;
+  --color-text: #2E2219;
+  --color-heading: #2A1E15;
+  --color-muted: #6E5C4C;
+  --color-border: rgba(46,34,25,.12);
+  --color-border-strong: rgba(46,34,25,.4);
+  --color-accent: #A9461F;
+  --color-accent-hover: #8E3A19;
+  --color-accent-text: #FFFFFF;
+  --color-accent-strong: #97401C;
+  --color-accent-soft: #F6DECF;
+  --color-inverse-bg: #3A2A1E;
+  --color-inverse-text: #FBF6EF;
+  --color-inverse-muted: #D9C7B5;
+  --color-inverse-border: rgba(251,246,239,.4);
+  --color-inverse-action: #FBF6EF;
+  --color-inverse-action-hover: #F3E7D8;
+  --color-inverse-action-text: #3A2A1E;
+  --color-nav-bg: rgba(251,246,239,.88);
+  --color-footer-bg: #F3E7D8;
+  --color-footer-text: #2E2219;
+  --color-footer-border: rgba(46,34,25,.14);
+  --color-input-bg: #FFFDF9;
+  --color-focus: #A9461F;
+  --color-error: #B42318;
 
   /* Type */
-  --font-display: "Space Grotesk", system-ui, sans-serif;
-  --font-body: "Inter", system-ui, sans-serif;
-  --font-label: "JetBrains Mono", ui-monospace, monospace;
-  --weight-display: 600;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "Figtree", system-ui, sans-serif;
+  --font-label: "Figtree", system-ui, sans-serif;
+  --weight-display: 400;
   --weight-button: 600;
-  --tracking-display: -0.035em;
-  --tracking-label: 0;
+  --tracking-display: -0.01em;
+  --tracking-label: 0.02em;
   --label-case: none;
-  --leading-display: 1.0;
+  --leading-display: 1.08;
 
   /* Shape */
-  --radius-button: 10px;
-  --radius-card: 14px;
-  --radius-input: 10px;
-  --radius-pill: 6px;
-  --radius-mark: 6px;
-  --radius-bullet: 2px;
-  --shadow-card: none;
+  --radius-button: 999px;
+  --radius-card: 24px;
+  --radius-input: 14px;
+  --radius-pill: 999px;
+  --radius-mark: 50%;
+  --radius-bullet: 50%;
+  --shadow-card: 0 1px 2px rgba(46,34,25,.04), 0 12px 32px -16px rgba(46,34,25,.18);
 
   /* Spacing scale */
   --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px;

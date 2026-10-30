@@ -4,7 +4,7 @@ Read this first in every new chat or Claude Code session.
 
 ## What we're building
 A website for [your business]: [one sentence on what you do and who it's for].
-(Sample content in this kit is for Relay, simple uptime monitoring for small teams. Replace it with yours.)
+(Sample content in this kit is for Kiezbohne, a small coffee roaster in Neukölln. Replace it with yours.)
 
 ## Our Git
 - Design system: github.com/[you]/[yourbrand]-design-system
